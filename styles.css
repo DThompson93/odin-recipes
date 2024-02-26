@@ -1,0 +1,28 @@
+a {
+    color: black;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+#image {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+}
+
+/* Managed to centre images using the above CSS code. */
+/* Using both left and right margins as auto, sets them to equal values, resulting in a centered image! */
+
+.points {
+    background-color: lightgray;
+}
+
+/* Added a background colour to the lists */
+
+.links {
+    text-align: center;
+}
