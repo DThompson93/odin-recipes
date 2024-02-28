@@ -1,5 +1,6 @@
 a {
     color: black;
+    margin: 10px;
 }
 
 h1 {
@@ -16,9 +17,14 @@ h1 {
 
 /* Managed to centre images using the above CSS code. */
 /* Using both left and right margins as auto, sets them to equal values, resulting in a centered image! */
+/* Played with margins and padding for bullet point boxes and links */
 
 .points {
     background-color: lightgray;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
 }
 
 /* Added a background colour to the lists */
