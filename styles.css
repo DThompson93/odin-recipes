@@ -1,6 +1,8 @@
 a {
     color: black;
     margin: 10px;
+    display: block;
+    /* Added Block box to move links onto separate lines. */
 }
 
 h1 {
@@ -22,9 +24,12 @@ h1 {
 .points {
     background-color: lightgray;
     margin-left: 100px;
-    margin-right: 100px;
+    /* margin-right: 100px; */
     padding-top: 10px;
     padding-bottom: 10px; 
+    padding-right: 10px;
+    border: 2px; 
+    width: 400px;
 }
 
 /* Added a background colour to the lists */
@@ -32,3 +37,14 @@ h1 {
 .links {
     text-align: center;
 }
+
+li {
+    border: 2px;
+    padding: 0.5em
+}
+/* Added better spacing within the page for the lists */
+
+ul {
+    list-style: none;
+}
+/* Removed bullet points from unordered lists */
